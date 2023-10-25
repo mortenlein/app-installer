@@ -1,0 +1,16 @@
+slack
+firefox
+googlechrome
+brave
+git
+git-credential-manager-for-windows
+drawio
+postman
+sublimetext3
+visualstudiocode
+azure-data-studio
+microsoft-windows-terminal
+terminus
+cmder
+docker-desktop
+docker-compose

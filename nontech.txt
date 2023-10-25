@@ -1,0 +1,4 @@
+// Add more stuff here for non-tech people, find the packagenames on https://community.chocolatey.org/packages
+slack
+firefox
+googlechrome
