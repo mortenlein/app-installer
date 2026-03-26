@@ -1,0 +1,23 @@
+# Browsing & Communication
+googlechrome
+firefox
+brave
+slack
+discord
+telegram
+zoom
+whatsapp
+
+# Writing & Productivity
+notion
+obsidian
+microsoft-todo
+
+# Security & Utilities
+bitwarden
+1password
+flameshot
+
+# Media
+spotify
+vlc

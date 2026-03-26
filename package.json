@@ -1,0 +1,16 @@
+{
+  "name": "app-installer",
+  "version": "1.0.0",
+  "description": "This is just barebones, please find your own packages to include into the .txt files or dont, its up to you.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test msg\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^41.0.3"
+  }
+}

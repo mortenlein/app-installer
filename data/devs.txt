@@ -1,0 +1,72 @@
+# Communication
+slack
+discord
+telegram
+signal
+googlechrome
+firefox
+brave
+
+# Knowledge Management
+notion
+obsidian
+
+# Password Managers
+1password
+bitwarden
+protonpass
+
+# Text Editors
+visualstudiocode
+cursor
+zen-browser
+sublimetext4
+notepadplusplus.install
+
+# Terminal
+microsoft-windows-terminal
+alacritty.install
+cmder
+termius
+tabby
+oh-my-posh
+
+# Development Environment
+git
+github-desktop
+gitkraken
+gitextensions
+
+# Productivity Tools
+powertoys
+flow-launcher
+autohotkey
+f.lux
+monitorswitcher
+
+# Screen Capture & Screenshot
+obs-studio.install
+zoomit
+flameshot
+lightshot.install
+greenshot
+
+# Video & Media
+screentogif
+vlc
+handbrake
+spotify
+
+# Virtualization & Containers
+docker-desktop
+podman-desktop
+rancher-desktop
+virtualbox
+
+# APIs & DBs
+postman
+dbeaver
+
+# Languages & Runtimes
+nodejs.install
+python3

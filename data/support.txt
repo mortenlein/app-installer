@@ -1,0 +1,51 @@
+# Communication & Browsing
+slack
+discord
+telegram
+signal
+googlechrome
+firefox
+brave
+
+# Password Managers
+bitwarden
+protonpass
+
+# System Utilities
+powertoys
+wiztree
+7zip
+bleachbit.install
+revo-uninstaller
+advanced-ip-scanner
+rufus
+
+# Hardware & Diagnostics
+cpu-z
+gpu-z
+hwinfo.install
+crystaldiskmark.install
+
+# Remote Access
+anydesk
+
+# Terminal & Network
+microsoft-windows-terminal
+putty
+wireshark
+
+# Text Editors
+visualstudiocode
+notepadplusplus.install
+
+# Screen Capture & Screenshot
+zoomit
+flameshot
+greenshot
+
+# Version Control
+git
+github-desktop
+
+# Virtualization
+virtualbox

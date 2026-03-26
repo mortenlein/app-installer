@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevInstaller Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-container">
+        <!-- Modern Slim Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <h1>DevInstaller <span>Pro</span></h1>
+                <div class="status-badge">
+                    <span class="pulse"></span>
+                    <span id="app-status">Ready</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <button id="back-to-roles-header" class="btn-secondary-slim">Change Role</button>
+            </div>
+        </header>
+
+        <main id="app-content">
+            <!-- Role Selection Screen -->
+            <section id="role-selection" class="screen active">
+                <div class="role-selection-intro">
+                    <h2>Welcome to Pro Configuration</h2>
+                    <p>Select your workstation profile to get started</p>
+                </div>
+                <div class="role-grid">
+                    <button class="role-card" data-role="devs">
+                        <div class="icon">💻</div>
+                        <div class="role-info">
+                            <h3>Developer</h3>
+                            <p>AI-powered tools, modern runtimes, and containers</p>
+                        </div>
+                    </button>
+                    <button class="role-card" data-role="nontech">
+                        <div class="icon">🏢</div>
+                        <div class="role-info">
+                            <h3>Productivity</h3>
+                            <p>Essential office and collaboration software</p>
+                        </div>
+                    </button>
+                    <button class="role-card" data-role="support">
+                        <div class="icon">🛠️</div>
+                        <div class="role-info">
+                            <h3>Support</h3>
+                            <p>System tools and management utilities</p>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Package Selection Screen -->
+            <section id="package-selection" class="screen">
+                <div class="package-view-layout">
+                    <div class="package-view-main">
+                        <div class="package-list-container">
+                            <div class="section-heading">
+                                <div class="section-title-row">
+                                    <h2 id="selected-role-title">Selected Profile</h2>
+                                    <div class="selection-controls">
+                                        <button id="select-all" class="btn-text">Select All</button>
+                                        <span class="separator">|</span>
+                                        <button id="deselect-all" class="btn-text">Deselect All</button>
+                                    </div>
+                                </div>
+                                <p>Customize your installation by selecting specific packages</p>
+                            </div>
+                            <div id="package-list" class="package-list">
+                                <!-- Dynamic packages go here -->
+                            </div>
+                        </div>
+                        <footer class="package-view-footer">
+                            <div class="count-info">
+                                <span id="package-count">0</span> packages selected
+                            </div>
+                            <button id="start-install" class="btn-primary">Start Installation</button>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Progress Screen -->
+            <section id="progress-screen" class="screen">
+                <div class="progress-view-layout">
+                    <div class="progress-details">
+                        <div class="progress-header">
+                            <h2>Installation Flow</h2>
+                            <div class="progress-header-actions">
+                                <button id="abort-install" class="btn-secondary-slim">Abort Installation</button>
+                                <button id="back-to-selection" class="btn-secondary-slim" style="display: none;">Back to Selection</button>
+                            </div>
+                        </div>
+                        <div class="progress-status-container">
+                            <div class="progress-container">
+                                <div id="progress-bar" class="progress-bar"></div>
+                            </div>
+                            <p id="current-package">Preparing environment...</p>
+                        </div>
+                        <div id="log-container" class="log-container">
+                            <pre id="install-log"></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Admin Warning Screen -->
+            <section id="admin-warning" class="screen">
+                <div class="warning-container">
+                    <div class="warning-icon">🛡️</div>
+                    <h2>Elevation Required</h2>
+                    <p>DevInstaller Pro requires administrative privileges to perform system-level changes and install core utilities.</p>
+                    <div class="warning-actions">
+                        <button id="restart-admin-btn" class="btn-primary">Restart as Admin</button>
+                        <button class="btn-secondary" onclick="window.close()">Exit App</button>
+                    </div>
+                    <div class="secondary-actions">
+                        <button id="bypass-admin" class="btn-text">Continue with limited access</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Finish Screen -->
+            <section id="finish-screen" class="screen">
+                <div class="success-view">
+                    <div class="success-icon">✨</div>
+                    <h2>Environment Ready</h2>
+                    <p id="success-message">All selected applications have been processed successfully.</p>
+                    <button id="close-app" class="btn-primary">Finish & Close</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

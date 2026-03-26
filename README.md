@@ -1,25 +1,58 @@
-# App Installer
+<div align="center">
 
-This is just barebones, please find your own packages to include into the .txt files or dont, its up to you.
+# DevInstaller Pro ✨
+**Modern. Glassmorphic. Efficient.**
 
-#########
+![Hero Mockup](file:///C:/Users/MortenLein/.gemini/antigravity/brain/ba6fc3b6-6519-42b3-bbfb-26db98f5b382/hero_mockup_1774520617667.png)
 
-On a fresh Windows 10 or Windows 11, you need to do the following steps:
+DevInstaller Pro is a premium, automated application installer for Windows, leveraging Chocolatey to streamline your environment setup. Whether you are a developer, a creative, or a sysadmin, get your workstation ready in minutes.
 
-1. Open Powershell as Admin
+[Features](#features) • [Installation](#installation) • [Workflow](#workflow)
 
-2. In the Powershell window, run the following command "Set-ExecutionPolicy Bypass". This will enable the script to run
+</div>
 
-3. Download the script and the apps.txt file into a folder and navigate to the folder in Powershell
+---
 
-4. Run the script by typing ".\devinstaller.ps1" without the ".
+## 🚀 Key Features
 
-5. The script will first check if Chocolatey is already installed, if its not installed, it will run the install script to install Chocolatey
+- **Role-Based Profiles**: Choose from curated profiles (Developer, Productivity, Support) to instantly get the tools you need.
+- **Granular Control**: Select exactly which packages you want to install from our extensive library.
+- **Glassmorphic UI**: A state-of-the-art, dark-themed interface built for performance and aesthetics.
 
-6. Next the script will prompt you with a choice, just install everything or let me decide for each app in the list. Press 'E' to just install everything with no user input or press 'D' to decide for each.
+<div align="center">
+![Package Selection](file:///C:/Users/MortenLein/.gemini/antigravity/brain/ba6fc3b6-6519-42b3-bbfb-26db98f5b382/selection_mockup_1774520634748.png)
+</div>
 
-7. If you've selected to decide app, you'll need to type Y/N for each app in the apps.txt list.
+## 🛠️ How it Works
 
-8. If you've selected to just install everything, just leave the script until its done.
+1. **Detection**: Checks for Chocolatey and ensures your environment is ready.
+2. **Selection**: Pick your role and customize your package list.
+3. **Execution**: Real-time installation feedback with a sleek progress bar and terminal-style logs.
 
-9. Done.
+<div align="center">
+![Installation Progress](file:///C:/Users/MortenLein/.gemini/antigravity/brain/ba6fc3b6-6519-42b3-bbfb-26db98f5b382/progress_mockup_1774520650069.png)
+</div>
+
+---
+
+## 📥 Getting Started
+
+On a fresh Windows 10 or Windows 11 installation:
+
+1. **PowerShell as Admin**: Open a PowerShell window with administrative privileges.
+2. **Set Execution Policy**: Run `Set-ExecutionPolicy Bypass` to allow the script to execute.
+3. **Download**: Grab the repository and navigate to the project folder.
+4. **Launch**:
+   - For the GUI experience: `npm start`
+   - For the CLI experience: `.\appinstaller.ps1`
+
+### ⚙️ Customization
+Choose between:
+- **'E' (Everything)**: Hands-off, automated installation.
+- **'D' (Decide)**: Prompt for each application in the `apps.txt` list.
+
+---
+
+<div align="center">
+Built with Electron & Love 💖
+</div>
