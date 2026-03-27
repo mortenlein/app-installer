@@ -55,4 +55,4 @@ Choose between:
 
 <div align="center">
 Built with Electron & Love 💖
-</div>
+</div>
