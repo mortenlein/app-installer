@@ -3,7 +3,7 @@
 # DevInstaller Pro ✨
 **Modern. Glassmorphic. Efficient.**
 
-![Hero Mockup](file:///C:/Users/MortenLein/.gemini/antigravity/brain/ba6fc3b6-6519-42b3-bbfb-26db98f5b382/hero_mockup_1774520617667.png)
+![Hero Mockup](assets/hero.png)
 
 DevInstaller Pro is a premium, automated application installer for Windows, leveraging Chocolatey to streamline your environment setup. Whether you are a developer, a creative, or a sysadmin, get your workstation ready in minutes.
 
@@ -20,7 +20,7 @@ DevInstaller Pro is a premium, automated application installer for Windows, leve
 - **Glassmorphic UI**: A state-of-the-art, dark-themed interface built for performance and aesthetics.
 
 <div align="center">
-![Package Selection](file:///C:/Users/MortenLein/.gemini/antigravity/brain/ba6fc3b6-6519-42b3-bbfb-26db98f5b382/selection_mockup_1774520634748.png)
+![Package Selection](assets/selection.png)
 </div>
 
 ## 🛠️ How it Works
@@ -30,7 +30,7 @@ DevInstaller Pro is a premium, automated application installer for Windows, leve
 3. **Execution**: Real-time installation feedback with a sleek progress bar and terminal-style logs.
 
 <div align="center">
-![Installation Progress](file:///C:/Users/MortenLein/.gemini/antigravity/brain/ba6fc3b6-6519-42b3-bbfb-26db98f5b382/progress_mockup_1774520650069.png)
+![Installation Progress](assets/progress.png)
 </div>
 
 ---
